@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #84E1AD;
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3CD883, #2DA060, #258450, #1B5936);
+}
+
+
+
+p {
+    margin-bottom: 0;
+    text-indent: 1.5em;
+    margin-top: 0;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+
+div#cabecalho {
+
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 210px;
+    margin: auto;
+    display: block;
+
+
+
+
+
+
+}
+
+h1#tiprincipal {
+    padding: 30px;
+}
+
+p#txtitulo {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+nav {
+    padding: 3px;
+
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+
+
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+
+
+div#papel {
+    background-color: white;
+    margin: 0px 260px 20px 260px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+
+}
+
+#papel-content{
+    padding: 10px;
+}
+
+.links-papel{
+    color: #1A5C38;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+h1#tpapel {
+    font-family: 'idroid', Times, serif;
+    color: #346633;
+    text-indent: 0.5em;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #4d9b4c7e, #32913060, #02710033, #3466330c);
+    font-family: 'idroid', Times, serif;
+    color: #346633;
+    text-indent: 0.5em;
+}
+
+
+
+img.irina {
+    width: 100%;
+}
+
+img {
+    text-align: center;
+    margin: auto;
+    display: block;
+
+}
+
+div#video {
+    background-color: #1A5C38;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+   
+    
+
+}
+
+#lista-header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #2fa865;
+    padding: 0 16px;
+}
+
+#lista-header h3 {
+    color: white;
+}
+
+div#lista {
+    background-color: #c5ebd6;
+    margin: 15px;
+    border-radius: 10px 10px;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+
+}
+
+#lista-content {
+    padding: 16px;
+}
+
+#listadupla {
+    display: flex;
+}
+
+ul dl {
+    display: inline-block;
+}
+
+ul.table-ul {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+dl > a {
+   
+    color: black;
+    
+}
+
+footer {
+    background-color: #011a0c;
+    height: 55px;
+   
+    
+}
+
+#rodape{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
